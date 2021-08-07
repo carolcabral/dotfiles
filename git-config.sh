@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 read -p "Enter github email: " email
-git config --globral user.email $email
+git config --global user.email $email
 
 read -p "Enter github username: " githubuser
-git config --globral user.name $githubuser
+git config --global user.name $githubuser
 
-read -s -p "Enter github OAuthToken for user $githubuser: " githubtoken
+read -s -p "Enter github token for user $githubuser (available at https://github.com/settings/tokens): " githubtoken
 
 echo "Using username $githubuser and email $email"
 
