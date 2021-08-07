@@ -1,0 +1,10 @@
+aaron-bond.better-comments
+alefragnani.Bookmarks
+CoenraadS.bracket-pair-colorizer
+esbenp.prettier-vscode
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+rangav.vscode-thunder-client
+vscode-icons-team.vscode-icons
+zhuangtongfa.material-theme
