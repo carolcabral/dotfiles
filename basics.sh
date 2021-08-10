@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y 
 sudo apt-get autoremove -y 
 
-sudo apt-get install sl git build-essential curl -y
+sudo apt-get install sl git build-essential curl vim -y
 
 #Git config 
 ./git-config.sh 
@@ -22,4 +22,5 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
 
 sudo shutdown -r now
+
 
