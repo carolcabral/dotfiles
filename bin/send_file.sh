@@ -3,6 +3,9 @@
 #ssh-copy-id <USERNAME>@<IP-ADDRESS>
 #ssh-add
 
+
+#Send all except those on fileignore
+
 if [ $# -lt 2 ]; then
     echo "USAGE: ./send_file.sh  path/to/file path/to/destiny [ip_address]"
 else 
